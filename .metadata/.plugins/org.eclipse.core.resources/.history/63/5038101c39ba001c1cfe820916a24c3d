@@ -1,0 +1,7 @@
+package ex3;
+
+public class Song {
+	void show(String title, String singer, String country) {
+		System.out.println(country + " 국적의 " + singer + "가 부른 " + title);
+	}
+}

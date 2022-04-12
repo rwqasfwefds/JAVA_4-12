@@ -1,0 +1,11 @@
+package ex;
+
+public class TV {
+	String brand;
+	int year;
+	int inch;
+	
+	void show(String a, int b, int c){
+		System.out.println(a + "에서 만든" + b + "년형" + c + "인치 Tv");
+	}
+}

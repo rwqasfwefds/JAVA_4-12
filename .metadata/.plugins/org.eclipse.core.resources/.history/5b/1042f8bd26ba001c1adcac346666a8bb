@@ -1,0 +1,9 @@
+package ex03;
+
+public class MyMath {
+//	¸â¹ö ¸Þ¼Òµå
+	long add(long a, long b) {
+		long result = a + b;
+		return result;
+	}
+}

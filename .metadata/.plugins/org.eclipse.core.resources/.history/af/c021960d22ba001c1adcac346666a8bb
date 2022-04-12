@@ -1,0 +1,13 @@
+package ex02;
+
+public class Ex6_3 {
+
+	public static void main(String[] args) {
+//		Card 클래스
+//		클래스명.변수 : 전역변수 호출방법
+//		new : 객체 생성 안 함
+		System.out.println("Card.width = " + Card.width);
+		System.out.println("Card.height = " + Card.height );
+	}
+
+}

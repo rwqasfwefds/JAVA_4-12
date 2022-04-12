@@ -1,0 +1,14 @@
+package ex06;
+
+public class Ex6_9 {
+
+	public static void main(String[] args) {
+//		클래스명으로 호출하는 것은 전역 변수 또는 전역 메소드
+		System.out.println(MyMath2.add(200L, 100L));
+		System.out.println(MyMath2.subtract(200L, 100L));
+		System.out.println(MyMath2.multiply(200L, 100L));
+		System.out.println(MyMath2.divide(200L, 100L));
+		
+	}
+
+}

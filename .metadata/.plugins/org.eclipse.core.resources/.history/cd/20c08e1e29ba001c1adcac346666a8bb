@@ -1,0 +1,25 @@
+package ex04;
+
+class Data {
+	int x;
+}
+
+// 화면 출력
+public class Ex6_6 {
+
+	public static void main(String[] args) {
+//		Data 클래스의 객체 생성
+		Data d = new Data();
+//		객체 d의 인스턴스 변수 x = 10
+		d.x = 10;
+		
+		System.out.println("main() : x = " + d.x);
+		
+		change(d.x);
+	}
+	static void change(int x) {
+		x = 1000;
+		System.out.println("change() : x = " + x);
+	}
+
+}

@@ -1,0 +1,9 @@
+package ex03;
+
+public class MyMath {
+//	멤버 메소드(인스턴스 메소드), 일반 메소드
+	long add(long a, long b) {
+		long result = a + b;
+		return result;
+	}
+}
